@@ -30,7 +30,7 @@ app.get("/games", async (request, response) => {
     })
 
     // return response.json(games)
-    return response.json({ games })
+    return response.json(games)
 })
 
 app.get("/", (request, response) => {
